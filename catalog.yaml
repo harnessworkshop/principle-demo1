@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: principle-demo1
+  description: app1
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:default/dish
+  lifecycle: experimental
